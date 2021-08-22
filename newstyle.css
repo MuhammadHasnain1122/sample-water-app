@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+
+.mainContainer{
+    width:100vw;
+    height:auto;
+    background:blue;
+}
+.parent{
+    width: 50vw;
+    height: auto;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    transition: all 0.2 linear;
+}
+.child{
+   
+    height: 105vh;
+    border-radius: 25px;
+    border: 4px solid black;
+    background:darkblue;
+    box-shadow: 0 0 20px white;
+    flex: 1 1 200px;
+    margin: 20px;
+}
+h3{
+    margin-top: 15px;
+    font-size: 1rem;
+    padding-left: 15px;
+    color: white;
+}
+h5{
+    font-size: 2rem;
+    padding-top: 50vh;
+    padding-left: 15px;
+    color: white;
+}
+p{
+    padding-top: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    color: wheat;
+}
+
+.loginbtm{
+    margin-top: 40px;
+    margin-left: 20px;
+    background-color: white;
+    border-radius: 10px;
+    width: 20vw;
+    height: 7vh;
+    color: blue;
+    font-size: 1rem;
+    
+}
+.SignUP{
+   
+    margin-top: 20px;
+    margin-left: 20px;
+    background:darkblue;
+    border-radius: 10px;
+    width: 20vw;
+    height: 7vh;
+    color: white;
+    font-size: 1rem;
+}
+.WB{
+    font-size: 2rem;
+    padding-top: 13vh;
+    padding-left: 15px;
+    color: white;
+
+}
+#t{
+    white-space: pre;
+    margin-top: 14vh;
+    margin-left: 15px;
+    color: blue;
+    font-size: 1rem;
+}
+.inputE{
+margin-left: 15px;
+margin-top: 10px;
+width: 20vw;
+height: 5vh;
+}
+#r{
+    white-space: pre;
+    margin-top: 3vh;
+    margin-left: 15px;
+    color:gray;
+}
+.FP{
+    margin-left: 10vw;
+    padding-top: 0px;
+   
+}
+.break{
+    text-align: center;
+    color: gray;
+}
+#n{
+    margin-top: 6vh;
+    color: gray;
+}
+.EM{
+    
+    color: gray;
+}
+@media (max-width:768px)
+{
+    .grandP{height: auto;}
+}
